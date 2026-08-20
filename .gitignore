@@ -1,0 +1,37 @@
+# Python virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables / secrets
+.env
+.env.*
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated scraping data
+raw_html/
+failed_html/
+results.jsonl
+
+# Common Crawl / Wayback test output
+cc_sample.html
+wayback_sample.html
+cc_probe_results.json
+wayback_probe_results.json
+wayback_cbosa_doc_ids.txt
+
+# Logs
+*.log
+
+# Windows
+Thumbs.db
+desktop.ini5
